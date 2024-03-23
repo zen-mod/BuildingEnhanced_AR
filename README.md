@@ -21,7 +21,9 @@
 **Building Enhanced** expands the functionality of the Building editor mode in Arma Reforger.
 
 ## Features
+
 - Ability to build on top of placed structures
+- Adds patrol and cycle waypoints.
 
 ## Contributing
 
