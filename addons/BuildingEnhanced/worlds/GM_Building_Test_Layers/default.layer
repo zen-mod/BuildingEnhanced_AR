@@ -1,0 +1,122 @@
+SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ coords 114.399 1 110.482
+}
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 114.399 1 109.482
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 114.399 1 108.482
+}
+SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor/GameMode_Editor_Full.et" {
+ coords 114.399 1 107.482
+ m_aDisabledResourceTypes {
+  0
+ }
+}
+GenericEntity : "{1E7646FCAD0FA6B4}PrefabsEditable/Auto/Props/Military/Compositions/US/E_VehicleService_US.et" {
+ components {
+  SCR_CampaignBuildingProviderComponent "{5ED49CDEA85A0083}" {
+   m_fBuildingRadius 100
+   m_aBudgetsToEvaluate {
+    SCR_CampaignBuildingCooldownWithRankBudgetToEvaluateData "{5EE71CAB5BFCF9A3}" {
+     m_aCustomCooldownData {
+      SCR_CooldownData "{5EEEF52515996867}" {
+       m_fDefaultTimeMultiplier 0
+      }
+      SCR_CooldownData "{5EEEF5250BF881BF}" {
+       m_fDefaultTimeMultiplier 0
+      }
+      SCR_CooldownData "{5EEEF5250BBA697C}" {
+       m_fDefaultTimeMultiplier 0
+      }
+      SCR_CooldownData "{5EEEF5250B54777E}" {
+       m_fDefaultTimeMultiplier 0
+      }
+      SCR_CooldownData "{5EEEF5250B763DE5}" {
+       m_fDefaultTimeMultiplier 0
+      }
+      SCR_CooldownData "{5EEEF52574D7AC41}" {
+       m_fDefaultTimeMultiplier 0
+      }
+     }
+    }
+    SCR_CampaignBuildingRankBudgetToEvaluateData "{5EF07CF4F67DF8CE}" {
+     m_eBudget RANK_PRIVATE
+    }
+    SCR_CampaignBuildingRankBudgetToEvaluateData "{5EF07CF4EBDEB7E3}" {
+     m_eBudget RANK_PRIVATE
+    }
+   }
+   m_aAvailableTraits + {
+    54 53 51
+   }
+  }
+  SCR_ResourceComponent "{5D7CC617B33EF1CF}" {
+   m_aContainers {
+    SCR_ResourceContainerVirtual "{60EE197593577EA2}" {
+     m_eResourceRights SELF
+     m_eStorageType STORED
+     m_fResourceValueCurrent 10000
+     m_fResourceValueMax 10000
+    }
+   }
+  }
+ }
+ coords 119.625 1 139.628
+ angleY 180
+}
+GenericEntity : "{46FC7FBA9AD1F550}Prefabs/Props/Military/Compositions/US/PersonnelService_US_Large.et" {
+ components {
+  SCR_CampaignBuildingProviderComponent "{5ED7185081A6289C}" {
+   m_fBuildingRadius 100
+   m_iRank PRIVATE
+   m_aBudgetsToEvaluate {
+    SCR_CampaignBuildingRankBudgetToEvaluateData "{5EF691A870469D7E}" {
+     m_eBudget RANK_PRIVATE
+    }
+    SCR_CampaignBuildingRankBudgetToEvaluateData "{5EF691A868F80123}" {
+     m_eBudget RANK_PRIVATE
+    }
+   }
+  }
+  SCR_ResourceComponent "{5D7CC617A89926F3}" {
+   m_aContainers {
+    SCR_ResourceContainerVirtual "{60EE1972AB90F83B}" {
+     m_eResourceRights SELF
+     m_eStorageType STORED
+     m_fResourceValueCurrent 10000
+     m_fResourceValueMax 10000
+     m_fResourceGain 0
+    }
+   }
+  }
+ }
+ coords 116.224 1 139.239
+ angleY 180
+}
+GenericEntity : "{59FF31302266059A}PrefabsEditable/Auto/Props/Military/Compositions/US/E_BuildingService_US.et" {
+ components {
+  SCR_CampaignBuildingProviderComponent "{5EBCED04D0321687}" {
+   m_aBudgetsToEvaluate {
+    SCR_CampaignBuildingRankBudgetToEvaluateData "{5EBCED04CB171654}" {
+     m_eBudget RANK_PRIVATE
+    }
+    SCR_CampaignBuildingRankBudgetToEvaluateData "{5EBCED04CC71C935}" {
+     m_eBudget RANK_PRIVATE
+    }
+   }
+  }
+  SCR_ResourceComponent "{5D7CC617AC1077DD}" {
+   m_aContainers {
+    SCR_ResourceContainerVirtual "{60EE197259418BA9}" {
+     m_eResourceRights SELF
+     m_eStorageType STORED
+     m_fResourceValueCurrent 10000
+     m_fResourceValueMax 10000
+    }
+   }
+  }
+ }
+ coords 113.207 1 139.671
+ angleY 180
+}
