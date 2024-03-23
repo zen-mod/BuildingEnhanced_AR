@@ -1,6 +1,26 @@
 SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et" {
  ID "518A34314C7CB324"
  components {
+  SCR_CampaignBuildingPlacingEditorComponent "{5A0ACCCCDF0C0F65}" {
+   m_Registries {
+    SCR_PlaceableEntitiesRegistry "{5ED85E850F003A6D}" {
+     m_Prefabs + {
+      "{C0A9A9B589802A5B}PrefabsEditable/Auto/AI/Waypoints/E_AIWaypoint_Patrol.et" "{0FBDE34BE96FB7BA}PrefabsEditable/Auto/AI/Waypoints/E_AIWaypointCycle.et"
+     }
+    }
+   }
+  }
+  SCR_CommandActionsEditorComponent "{54A0CA1864DC7D5C}" {
+   m_ActionsLists {
+    SCR_EditorActionList "{56A4A2E0EE3FDA36}" {
+     m_Actions {
+      SCR_WaypointBaseCommandAction "{54D0BD69DF198B2E}" {
+       m_bEnabled 1
+      }
+     }
+    }
+   }
+  }
   SCR_PreviewEntityEditorComponent "{5C7C884DECBBCD05}" {
    m_AllowedVerticalModes 6
   }
