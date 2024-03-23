@@ -1,0 +1,8 @@
+GameProject {
+ ID "BuildingEnhanced"
+ GUID "60EB593597401D9F"
+ TITLE "Building Enhanced"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}
